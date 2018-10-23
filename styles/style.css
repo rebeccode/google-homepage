@@ -1,4 +1,6 @@
-
+body {
+	font-family: arial,sans-serif;
+}
 
 img {
 	display: block;
@@ -8,5 +10,13 @@ img {
 
 form {
 	text-align: -webkit-center;
+	text-align: -moz-center;
 	text-align: center;
+}
+
+.search-box {
+	width: 403px;
+	height: 38px;
+	box-shadow: 1px 1px 2px #dbdbdb;
+	border: 0;
 }
