@@ -20,3 +20,17 @@ form {
 	box-shadow: 1px 1px 2px #dbdbdb;
 	border: 0;
 }
+
+.icon-square {
+    width: 20px;
+    vertical-align: middle;
+    background-image: url(../images/iconList.png);
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .60;
+    padding: 15px 5px;
+}
+
+.icon-square:hover {
+	opacity: .84;
+}
