@@ -20,6 +20,16 @@ ul {
 	list-style: none;
 }
 
+a {
+	color: #212121;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #181818;
+	text-decoration: underline;
+}
+
 .search-box {
 	width: 403px;
 	height: 38px;
