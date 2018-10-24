@@ -42,6 +42,7 @@ a:hover {
 .headbar {
 	top: 0;
 	float: right;
+	padding: 0 30px;
 }
 
 .icon-square {
