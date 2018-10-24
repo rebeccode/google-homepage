@@ -17,17 +17,27 @@ form {
 ul {
 	padding: 0;
 	margin: 0;
-	list-style: none;
+	list-style-type: none;
+}
+
+li {
+	float: left;
 }
 
 a {
+	display: inline-block;
 	color: #212121;
 	text-decoration: none;
+	padding: 8px;
 }
 
 a:hover {
 	color: #181818;
 	text-decoration: underline;
+}
+
+.headbar, .footbar {
+    background-color: #F2F2F2;
 }
 
 .search-box {
@@ -38,7 +48,7 @@ a:hover {
 }
 
 .icon-square {
-    display: block;
+    display: inline-block;
     width: 20px;
     vertical-align: middle;
     background-image: url(../images/iconList.png);
