@@ -2,17 +2,12 @@
 	padding: 0;
 	margin: 0;
 	border: 0;
+	list-style-type: none;
 }
 
 html, body {
 	font-family: arial,sans-serif;
 	font-size: 13px;
-}
-
-img {
-	display: block;
-	width: 272px;
-	margin: 0 auto;
 }
 
 form {
@@ -21,12 +16,12 @@ form {
 	text-align: center;
 }
 
-ul {
-	list-style-type: none;
-}
-
 li {
 	float: left;
+}
+
+main {
+	clear: both;
 }
 
 footer {
@@ -44,63 +39,9 @@ a:hover {
 	text-decoration: underline;
 }
 
-footer li:nth-child(n+4) {
- 	float: right;
-}
-
 .headbar {
-
 	top: 0;
 	float: right;
-}
-
-.language-option {
-	text-align: -webkit-center;
-	text-align: -moz-center;
-	text-align: center;
-}
-
-.language-option a {
-	color: #0000EE;
-}
-
-.language-option a:visited {
-	color: #551A8B;
-}
-
-.language-option a:active {
-	color: #EE0000;
-}
-
-.footbar {
-    position: fixed;
-    width: 98%;
-    display: inline-block;
-    background-color: #F2F2F2;
-    bottom: 0;
-    line-height: 40px;
-}
-
-.footbar a {
-	padding-left: 27px;
-}
-
-.country {
-	bottom: 40px;
-	border: 1px solid #d6d6d6;
-	padding-left: 27px;
-	font-size: 15px;
-}
-
-.foot-links {
-	padding-right: 27px;
-}
-
-.search-box {
-	width: 403px;
-	height: 38px;
-	box-shadow: 1px 1px 2px #dbdbdb;
-	border: 0;
 }
 
 .icon-square {
@@ -116,6 +57,34 @@ footer li:nth-child(n+4) {
 
 .icon-square:hover {
 	opacity: .84;
+}
+
+.logo {
+	display: block;
+	width: 272px;
+	margin: 0 auto;
+	padding-top: 17%;
+	padding-bottom: 30px;
+}
+
+.google-search {
+
+}
+
+.mic-icon {
+   width: 18px;
+   height: 23px;
+}
+
+.search {
+	width: 528px;
+	height: 44px;
+	box-shadow: 1px 1px 2px #dbdbdb;
+}
+
+.search-box {
+	width: 428px;
+	border: 0;
 }
 
 .search-button {
@@ -137,4 +106,52 @@ footer li:nth-child(n+4) {
 .search-button:hover {
 	color: #000;
 	border: 1px solid #DDD;
+}
+
+.language-option {
+	text-align: -webkit-center;
+	text-align: -moz-center;
+	text-align: center;
+}
+
+.language-option a {
+	color: #0000EE;
+}
+
+.language-option a:visited {
+	color: #551A8B;
+}
+
+.language-option a:active {
+	color: #EE0000;
+}
+
+.footbar {
+    color: #6F6F6F;
+    position: fixed;
+    width: 98%;
+    display: inline-block;
+    background-color: #F2F2F2;
+    bottom: 0;
+    line-height: 40px;
+}
+
+.footbar a {
+	color: #6F6F6F;
+	padding-left: 27px;
+}
+
+.right-foot {
+	float: right;
+}
+
+.country {
+	bottom: 40px;
+	border: 1px solid #d6d6d6;
+	padding-left: 27px;
+	font-size: 15px;
+}
+
+.foot-links {
+	padding-right: 27px;
 }
