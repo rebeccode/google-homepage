@@ -89,12 +89,12 @@ a:hover {
 
 .search-button {
 	display: inline-block;
-	padding: 8px 16px;
-	margin: 11px 4px;
+	padding: 11px 20px;
+	margin: 27px 1px;
 	font-family: arial,sans-serif;
 	font-size: 13px;
 	border: none;
-	background-color: #FFF;
+	background-color: #F5F5F5;
 	border-radius: 2px;
 	font-weight: bold;
 	color: #757575;
