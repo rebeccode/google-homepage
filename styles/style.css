@@ -80,6 +80,7 @@ a:hover {
 	width: 528px;
 	height: 44px;
 	box-shadow: 1px 1px 2px #dbdbdb;
+	margin: 0 auto;
 }
 
 .search-box {
