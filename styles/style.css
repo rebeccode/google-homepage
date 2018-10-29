@@ -55,7 +55,18 @@ a:hover {
 }
 
 .sign-in-button {
-	padding-top: 7px;
+	padding: 8px 13px;
+	background-color: #447AFF;
+	border-radius: 2px;
+	color: white;
+	font-weight: bold;
+}
+
+.sign-in-button:hover {
+	box-shadow: 0 1px #4479FA;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
 }
 
 .icon-square {
