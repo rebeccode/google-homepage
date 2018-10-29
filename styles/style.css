@@ -10,6 +10,13 @@ html, body {
 	font-size: 13px;
 }
 
+nav.header {
+	top: 0;
+	float: right;
+	padding: 30px 30px 0 0;
+	height: 33px;
+}
+
 form {
 	text-align: -webkit-center;
 	text-align: -moz-center;
@@ -24,7 +31,7 @@ main {
 	clear: both;
 }
 
-footer {
+nav.footer {
 	padding: 0 27px 0 0;
 }
 
@@ -39,16 +46,12 @@ a:hover {
 	text-decoration: underline;
 }
 
-.headbar {
-	top: 0;
-	float: right;
-	padding: 0 30px;
+li.headbar {
+	padding-left: 20px;
 }
 
 .icon-square {
-    display: inline-block;
     width: 20px;
-    vertical-align: middle;
     background-image: url(../images/iconList.png);
     background-size: 528px 68px;
     background-position: -132px -38px;
