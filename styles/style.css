@@ -13,7 +13,7 @@ html, body {
 nav.header {
 	top: 0;
 	float: right;
-	padding: 30px 30px 0 0;
+	padding: 20px 30px 0 0;
 	height: 33px;
 }
 
@@ -46,8 +46,16 @@ a:hover {
 	text-decoration: underline;
 }
 
-li.headbar {
+.headbar li {
 	padding-left: 20px;
+}
+
+.text-link {
+	padding-top: 7px;
+}
+
+.sign-in-button {
+	padding-top: 7px;
 }
 
 .icon-square {
